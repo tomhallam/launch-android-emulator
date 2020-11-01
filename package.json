@@ -1,6 +1,6 @@
 {
   "name": "launch-android-emulator",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "lib/android-emulator.js",
   "author": "Tom Hallam <tom@freshnode.co.uk>",
   "license": "MIT",
@@ -8,5 +8,9 @@
     "arg": "^4.1.3",
     "hasbin": "^1.2.3"
   },
-  "bin": "bin/android-emulator"
+  "bin": "bin/android-emulator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomhallam/launch-android-emulator.git"
+  }
 }
